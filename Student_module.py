@@ -1,5 +1,7 @@
+def register(name,rollno):
+    print("Student registered")
+    print(f"name: {name}")
+    print(f"roll no: {rollno}")
 name=input()
 rollno=int(input())
-print("Student Registered")
-print(f"roll no: {rollno}")
-print(f"name: {name}")
+register(name,rollno)
